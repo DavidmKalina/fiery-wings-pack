@@ -9,3 +9,4 @@ by hand.
 
 - `assets/fierywings/equipment/fiery_wings.json`: the equipment look (netherite chestplate layers + wings)
 - `assets/fierywings/textures/entity/equipment/wings/fiery_wings.png`: the fiery wing texture
+- `assets/minecraft/textures/item/beetroot.png`: beetroots look like bananas
