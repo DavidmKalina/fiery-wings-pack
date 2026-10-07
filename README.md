@@ -9,4 +9,6 @@ by hand.
 
 - `assets/fierywings/equipment/fiery_wings.json`: the equipment look (netherite chestplate layers + wings)
 - `assets/fierywings/textures/entity/equipment/wings/fiery_wings.png`: the fiery wing texture
-- `assets/minecraft/textures/item/beetroot.png`: beetroots look like bananas
+- `assets/minecraft/textures/item/beetroot.png`, `textures/block/beetroots_stage0-3.png`: beetroots look like bananas (green while growing, yellow when ripe)
+- `assets/minecraft/textures/item/beetroot_soup.png`: beetroot soup is a cheesecake gone wrong
+- `assets/minecraft/lang/en_*.json`: renames them Banana, Banana Seeds, Bananas and Cumpot
