@@ -1,15 +1,18 @@
-# Fiery Wings resource pack
+# Server resource pack
 
-A tiny Minecraft resource pack (26.3, pack format 97) used by the FieryWings plugin on my server.
-It gives the "Fiery Winged Chestplate" its look: the normal netherite chestplate plus elytra wings
-with a fire-coloured texture.
+The resource pack for my Minecraft server (26.3, pack format 97). The server's ResourcePack plugin sends players the
+link to `resource-pack.zip` when they join, so there's nothing to install by hand.
 
-The server sends players the link to `fiery-wings.zip` when they join, so there's nothing to install
-by hand.
+`resource-pack.zip` is built from the `pack/` folders of the server's plugins by `resource-pack/tools/build_pack.py`;
+don't edit it by hand. What's in it:
 
-- `assets/fierywings/equipment/fiery_wings.json`: the equipment look (netherite chestplate layers + wings)
-- `assets/fierywings/textures/entity/equipment/wings/fiery_wings.png`: the fiery wing texture
-- `assets/minecraft/textures/item/beetroot.png`, `textures/block/beetroots_stage0-3.png`: beetroots look like bananas (green while growing, yellow when ripe)
-- `assets/minecraft/textures/item/beetroot_soup.png`: beetroot soup is a cheesecake gone wrong
-- `assets/minecraft/lang/en_*.json`: renames them Banana, Banana Seeds, Bananas and Cumpot
-- `assets/ghastbreath/`: for the GhastBreath plugin, a happy ghast that has had dragon's breath looks like a regular ghast. `textures/entity/equipment/happy_ghast_body/ghast_face.png` is the ghast's body laid out for the harness model (which sits exactly around the body), and `equipment/ghast_*_harness.json` draw each harness colour over it (`ghast_face.json` = no harness)
+- `assets/fierywings/`: the fiery elytra wings worn with a Fiery Winged Chestplate (FieryWings plugin)
+- `assets/ghastbreath/`: a happy ghast that has had dragon's breath looks like a regular ghast, with or without a
+  harness (GhastBreath plugin)
+- `assets/inventory/` and `assets/minecraft/items/iron_chain.json`: two crossed chains on /tidy auto's Priority frames
+  (an iron chain with custom model data `tidy_priority`; ordinary chains look as usual)
+- `assets/minecraft/textures/`, `assets/minecraft/lang/`: beetroots look like bananas (green while growing, yellow
+  when ripe) and are called Banana, Banana Seeds and Bananas; beetroot soup is "Cumpot", a cheesecake gone wrong
+- `assets/ctweaks/`: models for the extra slabs and stairs of the CraftingTweaks plugin
+
+`fiery-wings.zip` is the old pack from before everything moved into one; it goes once the server has switched over.
